@@ -1,0 +1,100 @@
+.container {
+  width: 80%; /* কনটেইনারের প্রস্থ (২ পাশের জন্য সমান স্পেস রাখে) */
+  margin: 0 auto;
+}
+
+/* Cards Container */
+.reuseable3_cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+/* Individual Card */
+.reuseable3_course-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Image Section */
+.reuseable3_image-section {
+  position: relative;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reuseable3_image-placeholder {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.reuseable3_image-icon {
+  position: absolute;
+  font-size: 50px;
+  color: #888;
+}
+
+/* Content Section */
+.reuseable3_content-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.reuseable3_course-info {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.reuseable3_rating {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #ffce31; /* Star color */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reuseable3_star-icon {
+  margin-right: 5px;
+  text-align: center;
+}
+
+.reuseable3_course-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reuseable3_course-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.reuseable3_learn-more-btn {
+  color: #28a745;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+/* পুরো কনটেইনার */
+.container {
+  width: 80%; /* কনটেইনারের প্রস্থ (২ পাশের জন্য সমান স্পেস রাখে) */
+  margin: 0 auto; /* কেন্দ্রে রাখে */
+  text-align: left; /* টেক্সট বামপাশে এলাইন করে */
+  display: block;
+}
+
+/* উপশিরোনাম স্টাইল */
+.subheading {
+  color: #7c9a6a; /* হালকা সবুজ রঙ */
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* প্রধান শিরোনাম স্টাইল */
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222; /* গাঢ় টেক্সট কালার */
+  margin-bottom: 15px;
+}
+
+/* বর্ণনার স্টাইল */
+.description {
+  font-size: 16px;
+  color: #666; /* হালকা ধূসর রঙ */
+  line-height: 1.6;
+}

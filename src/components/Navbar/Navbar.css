@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Container for the navbar */
+.container {
+  padding: 0 50px; /* Add padding on left and right */
+}
+
+/* navbar style start */
+
+.navbar-background {
+  background-color: #fff2f3;
+}
+
+/* Common styling for the navbar */
+.navbar-all {
+  display: flex;
+  justify-content: space-between !important; /* Space between navbar sections */
+  align-items: center; /* Center align vertically */
+  padding: 10px 20px;
+}
+
+/* Navbar brand section */
+.navbar-1 h2 {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Navbar menu section */
+.navbar-2 ul {
+  display: flex; /* Flex layout for the list */
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-2 ul li {
+  margin: 0 15px; /* Spacing between items */
+}
+
+.navbar-2 ul li a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration: none;
+  color: #737373;
+}
+
+.navbar-2 ul li a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navbar login and button section */
+.navbar-3 {
+  display: flex; /* Flex layout for login and button */
+  align-items: center;
+  gap: 10px; /* Space between h4 and button */
+}
+
+.navbar-3 h4 {
+  margin: 0;
+  color: #96bb7c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.navbar-3 button {
+  width: Hug (138px) px;
+  height: Hug (52px) px;
+  padding: 15px 25px 15px 25px;
+  gap: 15px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #96bb7c;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

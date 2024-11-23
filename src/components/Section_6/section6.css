@@ -1,0 +1,8 @@
+.container {
+  width: 80%; /* কনটেইনারের প্রস্থ (২ পাশের জন্য সমান স্পেস রাখে) */
+  margin: 0 auto;
+}
+
+.section_6_all {
+  margin-top: 50px;
+}

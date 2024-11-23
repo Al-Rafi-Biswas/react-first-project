@@ -1,0 +1,13 @@
+.container {
+  width: 80%; /* কনটেইনারের প্রস্থ (২ পাশের জন্য সমান স্পেস রাখে) */
+  margin: 0 auto;
+}
+.reusable_3_all_item {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: baseline; /* Align items along their baseline (you can change this to flex-start or center depending on your need) */
+  gap: 10px; /* 10px gap between items */
+}
+.section_5_all {
+  margin-top: 50px;
+}

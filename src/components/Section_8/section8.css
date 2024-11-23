@@ -1,0 +1,58 @@
+.container {
+  width: 80%; /* কনটেইনারের প্রস্থ (২ পাশের জন্য সমান স্পেস রাখে) */
+  margin: 0 auto;
+}
+
+/* .container {
+    padding: 20px;
+  } */
+
+.section_8_all {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  gap: 70px; /* Adds spacing between sections */
+  justify-content: center; /* Centers the content */
+}
+
+.section_8_all h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.section_8_all ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.section_8_all ul li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center; /* Aligns icon and text */
+  justify-content: center; /* Centers content */
+  gap: 10px; /* Adds space between icon and text */
+}
+
+.section_8_all ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  align-items: center; /* Aligns icon and text */
+}
+
+.section_8_all ul li a:hover {
+  color: green; /* Changes color on hover */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+.section_8_all ul li a svg {
+  color: green; /* Makes icons green */
+  font-size: 18px; /* Adjusts icon size */
+}

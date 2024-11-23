@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fdf6f6;
+  margin: 0;
+  padding: 0;
+}
+/* Container for the navbar */
+.container {
+  padding: 0 50px; /* Add padding on left and right */
+}
+
+/* section-1 style start */
+
+/* General styling */
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Hero Text */
+.hero-text {
+  max-width: 50%;
+}
+
+.welcome-text {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #333;
+  margin: 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  margin: 15px 0 30px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-secondary {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-secondary:hover {
+  background-color: #e9ecef;
+}
+
+/* Hero Image */
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
